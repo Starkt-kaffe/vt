@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Hemligheter / lokal konfiguration
+.env
+
+# Körtidsdata som skapas av appen (token + hållplats-cache)
+active-token
+stop-areas
+
+# Editor/OS-skräp
+.DS_Store
+.vscode/
+.idea/
